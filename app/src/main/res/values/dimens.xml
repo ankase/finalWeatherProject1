@@ -11,5 +11,9 @@
     <dimen name="size250">250dp</dimen>
     <dimen name="size200">200dp</dimen>
     <dimen name="size124">124dp</dimen>
+    <dimen name="corner_radius">8dp</dimen>
+    <dimen name="card_elevation">12dp</dimen>
+    <dimen name="stroke_width">1dp</dimen>
+    <dimen name="layout_height">300dp</dimen>
 
 </resources>

@@ -58,9 +58,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/next_days"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="8dp"
+                android:layout_marginStart="@dimen/margin8"
+                android:layout_marginTop="@dimen/margin16"
+                android:layout_marginEnd="@dimen/margin8"
                 android:orientation="horizontal"
                 tools:listitem="@layout/item_forecast"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>

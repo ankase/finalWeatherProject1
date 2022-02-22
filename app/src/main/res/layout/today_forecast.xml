@@ -7,7 +7,7 @@
     <ImageView
         android:id="@+id/weather_icon"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="@dimen/layout_height"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:src="@drawable/weather_icon" />
