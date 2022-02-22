@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_text_size">19sp</dimen>
+    <dimen name="margin16">16dp</dimen>
+    <dimen name="margin32">32dp</dimen>
+    <dimen name="item_width">150dp</dimen>
+    <dimen name="item_height">200dp</dimen>
+    <dimen name="margin8">8dp</dimen>
+    <dimen name="card_corner">24dp</dimen>
+    <dimen name="temp_size">36dp</dimen>
+    <dimen name="size250">250dp</dimen>
+    <dimen name="size200">200dp</dimen>
+    <dimen name="size124">124dp</dimen>
+
+</resources>
