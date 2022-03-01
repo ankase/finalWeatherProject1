@@ -1,10 +1,12 @@
 package com.example.finalweatherproject
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import retrofit2.*
-import retrofit2.converter.gson.GsonConverterFactory
+import androidx.appcompat.app.AppCompatActivity
 import com.example.finalweatherproject.databinding.ActivityMainBinding
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+import retrofit2.Retrofit
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.net.HttpURLConnection
@@ -21,7 +23,6 @@ class MainActivity : AppCompatActivity() {
 
         val retrofit = Retrofit.Builder()
             .baseUrl("https://rapidapi.com/")
-            .addConverterFactory(GsonConverterFactory())
             .build()
 
         val service = retrofit.create(WeatherApi::class.java)
