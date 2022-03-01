@@ -32,14 +32,14 @@
 
             <include
                 android:id="@+id/forecast"
+                layout="@layout/today_forecast"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/chip_today"
+                android:layout_marginStart="@dimen/margin16"
                 android:layout_marginTop="@dimen/margin16"
                 android:layout_marginEnd="@dimen/margin16"
-                android:layout_marginStart="@dimen/margin16"
-                android:layout_marginBottom="@dimen/margin32"
-                layout="@layout/today_forecast"/>
+                android:layout_marginBottom="@dimen/margin32" />
 
             <TextView
                 android:id="@+id/next_days"
@@ -62,8 +62,8 @@
                 android:layout_marginTop="@dimen/margin16"
                 android:layout_marginEnd="@dimen/margin8"
                 android:orientation="horizontal"
-                tools:listitem="@layout/item_forecast"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/item_forecast" />
 
         </RelativeLayout>
 
